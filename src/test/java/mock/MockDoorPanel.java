@@ -7,7 +7,7 @@ public class MockDoorPanel extends DoorPanel {
     private Boolean isClosed = false;
 
     @Override
-    void close() {
+    public void close() {
         isClosed = true;
     }
 
